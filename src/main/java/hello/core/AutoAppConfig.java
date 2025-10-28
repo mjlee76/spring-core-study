@@ -20,8 +20,8 @@ public class AutoAppConfig {
     // 이렇게 오버라이딩 되도록하면 나중에 꼬일 수 있기 때문.
     // 하지만 이 기능 사용하고 싶으면 application.properties에
     // spring.main.allow-bean-definition-overriding=true 로 설정하면 실행 가능하다.
-    @Bean(name = "memoryMemberRepository")
+    /*@Bean(name = "memoryMemberRepository")
     public MemberRepository memberRepository() {
         return new MemoryMemberRepository();
-    }
+    }*/
 }
